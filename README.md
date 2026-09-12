@@ -1,5 +1,5 @@
 # NBA 75 榮耀殿堂
-
+https://island-hazel-orbit-granite.grok.me/
 **繁體中文** fan museum for the [NBA 75th Anniversary Team](https://en.wikipedia.org/wiki/NBA_75th_Anniversary_Team).
 
 七十六座獨立展櫃。從高中、大學、職業聯賽到國際賽事，以及每一段轉會軌跡。資料更新至 **2026 年 8 月**。
