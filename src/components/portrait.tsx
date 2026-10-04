@@ -29,9 +29,10 @@ export function Portrait({ player, className, imgClassName, eager }: PortraitPro
         />
       ) : (
         <div className="portrait-fallback flex size-full items-end justify-center" aria-hidden="true">
-          <span className="mb-8 font-display text-6xl leading-none text-fg/30 tabular-nums">
-            {player.jersey}
-          </span>
+          <div className="mb-24 text-center text-fg/70">
+            <p className="font-display text-5xl">{player.name.split(" ").map(part => part[0]).join("")}</p>
+            <p className="mt-3 font-mono text-xl">#{player.jersey}</p>
+          </div>
         </div>
       )}
     </div>

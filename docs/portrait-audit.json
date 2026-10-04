@@ -1,0 +1,686 @@
+[
+  {
+    "playerId": "allen-iverson",
+    "formerPath": "/portraits/allen-iverson.jpg",
+    "sha256": "ac3509c64e08c03de534bf4c6910df06b4714637bec4e8010814f3bf79f4a9f6",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "anthony-davis",
+    "formerPath": "/portraits/anthony-davis.jpg",
+    "sha256": "c14ef1b8655540ffcfaec612e0632d753b9e2cce696eded7e6ac658786295be9",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bill-russell",
+    "formerPath": "/portraits/bill-russell.jpg",
+    "sha256": "4c68fe8bbfe36353c920fc4536f76cca4d300b726cfa8627ae2fd939a3af2e28",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bill-sharman",
+    "formerPath": "/portraits/bill-sharman.jpg",
+    "sha256": "6ff58dc40790ffed7817d3972cbed7715a88771e19b9c9a1f065dee608bf220c",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bill-walton",
+    "formerPath": "/portraits/bill-walton.jpg",
+    "sha256": "be82baae165ab607833a92566b448971b91fa55582e933c271de1a663ff79819",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "billy-cunningham",
+    "formerPath": "/portraits/billy-cunningham.jpg",
+    "sha256": "dc2226bf98489957de3d8c6673212cb150c5eed6332d0640121b095655a93fcb",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bob-cousy",
+    "formerPath": "/portraits/bob-cousy.jpg",
+    "sha256": "800b4b2920e77f6419e18397740944b3eb7463704ab9dabbac34d40f21d0ff21",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bob-mcadoo",
+    "formerPath": "/portraits/bob-mcadoo.jpg",
+    "sha256": "4a09ee84c0c850b777d3482064cd97b30cc321fd42753c95f58e9457267ab4fb",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "bob-pettit",
+    "formerPath": "/portraits/bob-pettit.jpg",
+    "sha256": "e2d233f1ee99b2a92b0ac43ab3bc86877e045d75cdec44cb2466c7ac433e1868",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "carmelo-anthony",
+    "formerPath": "/portraits/carmelo-anthony.jpg",
+    "sha256": "9a7f046550af1c33c0a0ea24fde59b3707e700747ad073d3addb84369476d397",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "charles-barkley",
+    "formerPath": "/portraits/charles-barkley.jpg",
+    "sha256": "bd0a367021fbed23b9d75ffacfe947617614480ac28bf0d7d3f9426af1f08ea9",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "chris-paul",
+    "formerPath": "/portraits/chris-paul.jpg",
+    "sha256": "67c9d815d68762581764f077bcd6a74dffef1e06b9578f0839e70741340bdb81",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "clyde-drexler",
+    "formerPath": "/portraits/clyde-drexler.jpg",
+    "sha256": "a6295fadf1ce7b2fc7ec6d7b55acf4ae1f9d069023f30eeb5d9d0dff1843f279",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "damian-lillard",
+    "formerPath": "/portraits/damian-lillard.jpg",
+    "sha256": "aa8e3f166d607bce0fb75e19acb6755b01a94b4a883a6b5be3c05b823958a89a",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dave-bing",
+    "formerPath": "/portraits/dave-bing.jpg",
+    "sha256": "d433437ac76d188c14e73c5e85adbe63998b55d150633a7dfa819eeec8bb4e59",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dave-cowens",
+    "formerPath": "/portraits/dave-cowens.jpg",
+    "sha256": "856fd0dba875bba94388b8e19777b845276308b41be8e74c00dbf505e31f4d6d",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dave-debuschere",
+    "formerPath": "/portraits/dave-debuschere.jpg",
+    "sha256": "fe57e8c1e7828d68248689fe67a5de7ac3d43b3506431735c4bd9a360be75b08",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "david-robinson",
+    "formerPath": "/portraits/david-robinson.jpg",
+    "sha256": "0f596a7c139afa33716f03e669ba64361e6d2b6ed3cf5c18378af0c57890290e",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dennis-rodman",
+    "formerPath": "/portraits/dennis-rodman.jpg",
+    "sha256": "d628153c1385e5bbb0b9ad0e3114a642bf9adebd04f68677f61aa4eb017d78b8",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dirk-nowitzki",
+    "formerPath": "/portraits/dirk-nowitzki.jpg",
+    "sha256": "3e2edaa8f8d7d2f3a530942d64152ee5afa675837e6a368c6619b0e3c0b281a0",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dolph-schayes",
+    "formerPath": "/portraits/dolph-schayes.jpg",
+    "sha256": "54272e56f428252f1a405f7eb30422855c7efc08253c2f78b60c0f7ed6960afc",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dominique-wilkins",
+    "formerPath": "/portraits/dominique-wilkins.jpg",
+    "sha256": "2fc9a23b3d42b17e0a0cd3e94178ee64779a66775f3040ffacc9fcf57c4c4f46",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "dwyane-wade",
+    "formerPath": "/portraits/dwyane-wade.jpg",
+    "sha256": "8a9fec6b76aa467ca18e190fcab7d385d44b2a7c193e765778133eec3e3ca35c",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "earl-monroe",
+    "formerPath": "/portraits/earl-monroe.jpg",
+    "sha256": "e774e2101b23b80f7daa33e3ec82efb17ba218e62c7301024a555432976ee258",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "elgin-baylor",
+    "formerPath": "/portraits/elgin-baylor.jpg",
+    "sha256": "e54a3a368035c02745a6f74820f685f77ada8ea35ec0a4bbc46fcbed783cb690",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "elvin-hayes",
+    "formerPath": "/portraits/elvin-hayes.jpg",
+    "sha256": "f78b8b39ac15ac3c99e7935d97d70ee705427cb0be48c3a96a8bde5d74147752",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "gary-payton",
+    "formerPath": "/portraits/gary-payton.jpg",
+    "sha256": "54b937e5f293d34e0042f1c718df2f70e4f39e8fedfd7c8c172a1eff979d77e9",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "george-gervin",
+    "formerPath": "/portraits/george-gervin.jpg",
+    "sha256": "18f72dd61e28b51b01e7e5c5ad27436ddb4f4c01176a5407dd6ce05a9b9cf69d",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "george-mikan",
+    "formerPath": "/portraits/george-mikan.jpg",
+    "sha256": "3de86de3a37864095a59bd19b3a37340b1593c426ddf6097c019d494d7fde79f",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "giannis-antetokounmpo",
+    "formerPath": "/portraits/giannis-antetokounmpo.jpg",
+    "sha256": "2e0242d46fc908bd3add6f1ab80bd6df9377b9b65a814e72f92ae01beb604d3a",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "hakeem-olajuwon",
+    "formerPath": "/portraits/hakeem-olajuwon.jpg",
+    "sha256": "fcfe0c1182dd9b15f725d33f738147e01af1cfde9a6862e383588957c11abcbf",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "hal-greer",
+    "formerPath": "/portraits/hal-greer.jpg",
+    "sha256": "32d04a006f2bbe93a91d9c8f5676dcd11690eca299c7e2e68d3037c1e67af30d",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "isiah-thomas",
+    "formerPath": "/portraits/isiah-thomas.jpg",
+    "sha256": "38747a905e3847e8a7c4e9e2c081d7b43e3ce283bc846fd7b68d88b9026b6b06",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "james-harden",
+    "formerPath": "/portraits/james-harden.jpg",
+    "sha256": "c7b6a0f0aa9a1bba6cafa0105d791a24d8e464bf3858faa826a7f069a8646620",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "james-worthy",
+    "formerPath": "/portraits/james-worthy.jpg",
+    "sha256": "6365f5715077c67af56234cc6e836eadbc5303ba8a102fdef363f1e4b12d5916",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "jason-kidd",
+    "formerPath": "/portraits/jason-kidd.jpg",
+    "sha256": "c317059e6865780199a6a5f684fdb231318dad0f16e7eaab731bb6720d91bb9f",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "jerry-lucas",
+    "formerPath": "/portraits/jerry-lucas.jpg",
+    "sha256": "a1e58b88f9e68f54ab62dbdc58e59035e63d81c08b4378e95698593fc46e2443",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "jerry-west",
+    "formerPath": "/portraits/jerry-west.jpg",
+    "sha256": "0fa3b041b8b0b89cea71759335193f8ffe24ba5062c0922d995f5a9df2618dfc",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "john-havlicek",
+    "formerPath": "/portraits/john-havlicek.jpg",
+    "sha256": "7e6fac9a121fe386e9ea52cbc05eb69ea6918edbc3e05d2f2482ab4b3ee846b7",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "john-stockton",
+    "formerPath": "/portraits/john-stockton.jpg",
+    "sha256": "c5aadfde6cc0ffac5ee05d3ea660521cace3372e6b0bb5b7553fccb19b247108",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "julius-erving",
+    "formerPath": "/portraits/julius-erving.jpg",
+    "sha256": "348597813134ec70d5d6f97c4d7b1a3ba0aa9da140c145aad8796e9a53dc5fa9",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kareem-abdul-jabbar",
+    "formerPath": "/portraits/kareem-abdul-jabbar.jpg",
+    "sha256": "428da3b080fce4473a92da96e5fe3f3e4ea322b29cd0b3d5cea2fd4ab89e1044",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "karl-malone",
+    "formerPath": "/portraits/karl-malone.jpg",
+    "sha256": "3901b3aa7ffd56af76680a3e78996a33ecf42161e81a59995e150be40d233fac",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kawhi-leonard",
+    "formerPath": "/portraits/kawhi-leonard.jpg",
+    "sha256": "48012d012cd672ecf4b308c621123a6b4ec8203b05c646cb49f7f7957129ebfb",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kevin-durant",
+    "formerPath": "/portraits/kevin-durant.jpg",
+    "sha256": "11adebd6d908db178fed7d74fac46e35b7493e98f67d7d974053a3ff6644d9d7",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kevin-garnett",
+    "formerPath": "/portraits/kevin-garnett.jpg",
+    "sha256": "65abc697a72a7dd547d3d32e5be9eaae1af40d713014edf75ddddac9279ccc29",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kevin-mchale",
+    "formerPath": "/portraits/kevin-mchale.jpg",
+    "sha256": "abb417c85ea0bdb8286d7749b1b91fefbb1d09193acc6c2fa2505ef7dd07a6a3",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "kobe-bryant",
+    "formerPath": "/portraits/kobe-bryant.jpg",
+    "sha256": "cb93c78b22255b0089162d8ae4f30bee9fc3056538e589ec5afb0e848ecfb99d",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "larry-bird",
+    "formerPath": "/portraits/larry-bird.jpg",
+    "sha256": "2675f10331f6fce7544ea1f780bb52edd36ad682a02ec66d4807bc4c7a0687ee",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "lebron-james",
+    "formerPath": "/portraits/lebron-james.jpg",
+    "sha256": "db69be1d340793459455923bcdcebddac0c2ea916d7a95edf435865dd7985163",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "lenny-wilkens",
+    "formerPath": "/portraits/lenny-wilkens.jpg",
+    "sha256": "be05c71c6a91c87fc96fc04c150fdda96865570b1a059b177d4d3ac77cd135de",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "magic-johnson",
+    "formerPath": "/portraits/magic-johnson.jpg",
+    "sha256": "39c60525f6eada79e675ae01ad8e9d269e7e2adb68f5cde5c2b82f297c0c21ae",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "michael-jordan",
+    "formerPath": "/portraits/michael-jordan.jpg",
+    "sha256": "673d01e5d97e025c8f578bce25070fb98b3309718550f7843993e227de533aa6",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "moses-malone",
+    "formerPath": "/portraits/moses-malone.jpg",
+    "sha256": "be456f7e2fe6c71271440577c3382e66de261ea31ff5eea1255f0a4923260995",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "nate-archibald",
+    "formerPath": "/portraits/nate-archibald.jpg",
+    "sha256": "95ad2880bf87384e203e8bf1e950b760160a0c4fa8a5746dacd0f21ba8621bbb",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "nate-thurmond",
+    "formerPath": "/portraits/nate-thurmond.jpg",
+    "sha256": "2c267784428062ed3f3b70a0ac2f0d5f1ff6aeffa3a27c01fa12c847bd197e40",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "oscar-robertson",
+    "formerPath": "/portraits/oscar-robertson.jpg",
+    "sha256": "0e449e01c8679bde7d610a102be0af7df235c3387514dc05414618a2366b3f66",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "patrick-ewing",
+    "formerPath": "/portraits/patrick-ewing.jpg",
+    "sha256": "9f81bef6d79f66339f6bd57820afa12bfc3e5dda510c3429465e4479bf4ba8ab",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "paul-arizin",
+    "formerPath": "/portraits/paul-arizin.jpg",
+    "sha256": "51f84894ac7c81e56bc759a0bde87954e3f136e390df22114ad2b1df5ac3be38",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "paul-pierce",
+    "formerPath": "/portraits/paul-pierce.jpg",
+    "sha256": "48bdce0eae049437aef8e8eabb7d7330e085b2318ab5494c7c7e40bb83b17226",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "pete-maravich",
+    "formerPath": "/portraits/pete-maravich.jpg",
+    "sha256": "08ad11255f919f973f4f18cc6cb9dac67d7c88d3f8713b0c9971c70d86eb21f5",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "ray-allen",
+    "formerPath": "/portraits/ray-allen.jpg",
+    "sha256": "23726c9c9739f4f70eab57698fa74b0be79e34850ce9665be488a267ca958750",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "reggie-miller",
+    "formerPath": "/portraits/reggie-miller.jpg",
+    "sha256": "3fc68d41941d1ef3d75704ef6d70a726b135e871b332711dff6fb58dca89ed8e",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "rick-barry",
+    "formerPath": "/portraits/rick-barry.jpg",
+    "sha256": "2ea0f407511e12202ae68650126881ceb15d44b821592c8dc4bce086e5513350",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "robert-parish",
+    "formerPath": "/portraits/robert-parish.jpg",
+    "sha256": "f5645525e61ad9a3d6cbc64e15658501deb293747812effe37fa0116f5cebc71",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "russell-westbrook",
+    "formerPath": "/portraits/russell-westbrook.jpg",
+    "sha256": "74132b0ac4d45fbe4e62104cefa682d5af5d3546c7dac1ee649dc80375e6f515",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "sam-jones",
+    "formerPath": "/portraits/sam-jones.jpg",
+    "sha256": "a0fa87b01d105d5d467d1aa9837a3de773e5d783ec30b407f0b7046b45099218",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "scottie-pippen",
+    "formerPath": "/portraits/scottie-pippen.jpg",
+    "sha256": "14d9f6f352250f92ae98afc78d7bcf847a556b146227026d334ccaa341ab4e12",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "shaquille-oneal",
+    "formerPath": "/portraits/shaquille-oneal.jpg",
+    "sha256": "d30fddb5ca6990f0aeceef35bfa8589e1d4fbd0de64b41d7fc67390b424772aa",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "stephen-curry",
+    "formerPath": "/portraits/stephen-curry.jpg",
+    "sha256": "a78067967fd0d414314801e17e9ca7b74c844b307094743e22c8b1208046afaa",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "steve-nash",
+    "formerPath": "/portraits/steve-nash.jpg",
+    "sha256": "8cd364723dc282d1c1802ad9c509f76d9dbe84d4ba2a99a5c479dbf53957c2ab",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "tim-duncan",
+    "formerPath": "/portraits/tim-duncan.jpg",
+    "sha256": "2fea5faca19abdcd9aff1962343750382d765e69dd9959f3588b4e9a2e40ab0e",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "walt-frazier",
+    "formerPath": "/portraits/walt-frazier.jpg",
+    "sha256": "ffe9d6d137e7afe2fbb5f9c1f8b170f4b34dfd496fd319e38631677fc812b187",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "wes-unseld",
+    "formerPath": "/portraits/wes-unseld.jpg",
+    "sha256": "e82307d07ed98828622acdc35685348f03ca38cf3ce19222371ce0178f4ab8cf",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "willis-reed",
+    "formerPath": "/portraits/willis-reed.jpg",
+    "sha256": "d982957c745aa015ca4903744c5f41545f695ee4e84b9af9a30b4ca420f837a2",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  },
+  {
+    "playerId": "wilt-chamberlain",
+    "formerPath": "/portraits/wilt-chamberlain.jpg",
+    "sha256": "69e7d8b04f4fd3215fa19a715337550b5f49598a1aacf2b12b88d55b56b33218",
+    "source": "Wikipedia summary/search thumbnail; original file URL not retained",
+    "author": null,
+    "license": null,
+    "status": "removed-from-public-output-pending-rights-verification"
+  }
+]

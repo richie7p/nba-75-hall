@@ -13,7 +13,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content: "七十六座毛玻璃展櫃：巨星肖像、高中到國際賽榮譽，以及更新至 2026 年 8 月的轉會紀錄。",
+        content: "七十六座巨星展櫃。附來源與核對範圍的靜態資料快照；生涯數據仍待逐欄查核。",
       },
       { name: "theme-color", content: "#0a0b0d" },
     ],
