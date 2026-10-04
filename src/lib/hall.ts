@@ -14,6 +14,14 @@ export const ERAS: Era[] = [
 
 export const POSITIONS: Position[] = ["PG", "SG", "SF", "PF", "C"];
 
+export function normalizeFilters(raw: Record<string, unknown>) {
+  return {
+    q: typeof raw.q === "string" ? raw.q.slice(0, 200) : "",
+    era: typeof raw.era === "string" && ERAS.includes(raw.era as Era) ? raw.era : "all",
+    pos: typeof raw.pos === "string" && POSITIONS.includes(raw.pos as Position) ? raw.pos : "all",
+  };
+}
+
 export function hallStats(players: Player[]) {
   return {
     count: players.length,
@@ -42,10 +50,11 @@ export function filterPlayers(
   players: Player[],
   opts: { q: string; era: string; pos: string },
 ) {
-  const q = opts.q.trim().toLowerCase();
+  const { era, pos, q: rawQuery } = normalizeFilters(opts);
+  const q = rawQuery.trim().toLowerCase();
   return players.filter((p) => {
-    if (opts.era !== "all" && p.era !== opts.era) return false;
-    if (opts.pos !== "all" && p.pos !== opts.pos) return false;
+    if (era !== "all" && p.era !== era) return false;
+    if (pos !== "all" && p.pos !== pos) return false;
     if (q && !playerQuery(p).includes(q)) return false;
     return true;
   });
@@ -85,7 +94,7 @@ export function peakIsCurrent(player: Player): boolean {
 }
 
 export function clubLine(player: Player): string {
-  if (player.active) return `現役 ${lastStint(player).teamZh}`;
+  if (player.active) return `末筆球隊 ${lastStint(player).teamZh}`;
   return `代表隊 ${player.peakTeam}`;
 }
 

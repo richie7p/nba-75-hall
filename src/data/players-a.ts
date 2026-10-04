@@ -120,7 +120,7 @@ export const PLAYERS_A: Player[] = [
       scoring: [],
       retired: [],
       hof: null,
-      extras: ["NBA 75 大巨星（現役入選）", "最進步獎 2017", "總決賽 G6 對太陽 50 分封王", "2026 年 6 月交易至熱火"],
+      extras: ["NBA 75 大巨星（現役入選）", "最進步獎 2017", "總決賽 G6 對太陽 50 分封王", "2026 年 7 月正式交易至熱火"],
     },
     intl: ["希臘國家隊", "2019 世界盃代表希臘", "2024 奧運希臘隊"],
     path: [
@@ -129,7 +129,7 @@ export const PLAYERS_A: Player[] = [
     ],
     trades: [
       {
-        date: "2026-06-22",
+        date: "2026-07-06",
         deal: "公鹿將安戴托昆波與 Bobby Portis 交易至熱火，換回 Tyler Herro、Jaime Jaquez Jr.、Kel'el Ware、Kasparas Jakučionis、2026 年第 13 順位、2030 首輪互換、2031 與 2033 首輪及 2033 次輪",
       },
     ],
@@ -763,7 +763,7 @@ export const PLAYERS_A: Player[] = [
     trades: [
       { date: "2019-06-15", deal: "鵜鶘將 AD 交易至湖人，換回 Lonzo Ball、Brandon Ingram、Josh Hart、選秀權與其他籌碼" },
       { date: "2025-02-02", deal: "湖人將 AD 交易至獨行俠，換回 Luka Dončić（史上最震撼互換之一）" },
-      { date: "2026-02-04", deal: "獨行俠將 AD、Jaden Hardy、D'Angelo Russell、Dante Exum 交易至巫師" },
+      { date: "2026-02-05", deal: "獨行俠將 AD、Jaden Hardy、D'Angelo Russell、Dante Exum 交易至巫師" },
     ],
     sig: { pts: "24.1", reb: "10.6", ast: "2.5" },
   },
@@ -1388,7 +1388,7 @@ export const PLAYERS_A: Player[] = [
     color2: "#FDB927",
     era: "modern",
     active: true,
-    intro: "被選定為天選之人，然後真的走完這條路。四座總冠軍、四座 FMVP、歷史得分王。2026 年 7 月自稱為生涯「最後一次決定」，以兩年老將底薪加盟費城七六人，迎戰破紀錄的第 24 個球季。",
+    intro: "被選定為天選之人，然後真的走完這條路。四座總冠軍、四座 FMVP、歷史得分王。2026 年 7 月自稱為生涯「最後一次決定」，加盟費城七六人（球隊未公開合約條款），迎戰破紀錄的第 24 個球季。",
     hs: { school: "St. Vincent-St. Mary", honors: ["全美高中第一人連續多年", "麥當勞全美", "俄亥俄 Mr. Basketball ×3", "封面少年"] },
     uni: null,
     nba: {
@@ -1404,7 +1404,7 @@ export const PLAYERS_A: Player[] = [
       scoring: ["2008"],
       retired: [],
       hof: null,
-      extras: ["NBA 75 大巨星", "NBA 歷史得分王", "助攻榜前列", "2016 1-3 翻盤勇士", "2024 巴黎奧運金牌與賽事 MVP", "2025–26 場均 20.9 分 6.1 籃板 7.2 助攻", "2026 年 7 月兩年約 790 萬底薪加盟七六人"],
+      extras: ["NBA 75 大巨星", "NBA 歷史得分王", "助攻榜前列", "2016 1-3 翻盤勇士", "2024 巴黎奧運金牌與賽事 MVP", "2025–26 場均 20.9 分 6.1 籃板 7.2 助攻", "2026 年 7 月加盟七六人；球隊未公開合約條款"],
     },
     intl: ["2004 雅典奧運銅牌", "2008 北京奧運金牌", "2012 倫敦奧運金牌", "2024 巴黎奧運金牌（賽事 MVP）"],
     path: [
@@ -1412,7 +1412,7 @@ export const PLAYERS_A: Player[] = [
       { team: "Miami Heat", teamZh: "邁阿密熱火", years: "2010–2014", how: "自由球員" },
       { team: "Cleveland Cavaliers", teamZh: "克里夫蘭騎士", years: "2014–2018", how: "自由球員回歸" },
       { team: "Los Angeles Lakers", teamZh: "洛杉磯湖人", years: "2018–2026", how: "自由球員" },
-      { team: "Philadelphia 76ers", teamZh: "費城七六人", years: "2026–", how: "自由球員（老將底薪）" },
+      { team: "Philadelphia 76ers", teamZh: "費城七六人", years: "2026–", how: "自由球員" },
     ],
     trades: [],
     sig: { pts: "27.0", reb: "7.5", ast: "7.4" },

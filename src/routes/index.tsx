@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Search } from "lucide-react";
 import { DATA_AS_OF, PLAYERS } from "@/data";
@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
   ERAS,
+  normalizeFilters,
   POSITIONS,
   POS_LABEL,
   filterPlayers,
@@ -15,6 +16,7 @@ import {
   hallStats,
 } from "@/lib/hall";
 import { cn } from "@/lib/utils";
+import { SourceNotice } from "@/components/source-notice";
 
 type SearchParams = {
   q?: string;
@@ -23,15 +25,13 @@ type SearchParams = {
 };
 
 export const Route = createFileRoute("/")({
-  validateSearch: (raw: Record<string, unknown>): SearchParams => ({
-    q: typeof raw.q === "string" ? raw.q : undefined,
-    era: typeof raw.era === "string" ? raw.era : undefined,
-    pos: typeof raw.pos === "string" ? raw.pos : undefined,
-  }),
+  validateSearch: (raw: Record<string, unknown>): SearchParams => normalizeFilters(raw),
   component: Home,
 });
 
 function Home() {
+  const [interactive, setInteractive] = useState(false);
+  useEffect(() => setInteractive(true), []);
   const search = Route.useSearch();
   const q = search.q ?? "";
   const era = search.era ?? "all";
@@ -63,11 +63,14 @@ function Home() {
             榮耀殿堂
           </h1>
           <p className="stagger-in mt-4 max-w-xl text-base leading-relaxed text-muted">
-            七十六座獨立展櫃。從高中、大學、職業聯賽到國際賽事，以及每一段轉會軌跡。資料更新至 {DATA_AS_OF}。
+            七十六座獨立展櫃。從高中、大學、職業聯賽到國際賽事，以及每一段轉會軌跡。資料版本：{DATA_AS_OF}。
           </p>
           <p className="glass stagger-in mt-6 max-w-2xl rounded-lg px-4 py-3 text-sm leading-relaxed text-fg/90">
             2026 總冠軍：紐約尼克 4–1 擊敗聖安東尼奧馬刺，總決賽 MVP Jalen Brunson。
+            <a className="ml-2 underline" href="https://www.nba.com/game/tbd-vs-tbd-0042500405">NBA 比賽紀錄</a>
+            <a className="ml-2 underline" href="https://www.nba.com/news/jalen-brunson-wins-bill-russell-trophy-as-2026-nba-finals-mvp">MVP 來源</a>
           </p>
+          <SourceNotice />
           <dl className="stagger-in mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
             <Stat label="傳奇展櫃" value={String(stats.count)} />
             <Stat label="總冠軍戒指" value={String(stats.rings)} />
@@ -78,7 +81,7 @@ function Home() {
       </header>
 
       <div className="glass-nav sticky top-0 z-20">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:px-6">
+        <fieldset disabled={!interactive} aria-label="搜尋與篩選" className="mx-auto flex min-w-0 max-w-6xl flex-col gap-3 border-0 px-4 py-3 sm:px-6">
           <label className="relative block">
             <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted" />
             <Input
@@ -109,7 +112,7 @@ function Home() {
               </Chip>
             ))}
           </div>
-        </div>
+        </fieldset>
       </div>
 
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
@@ -125,6 +128,7 @@ function Home() {
             <p className="mt-2 text-sm text-muted">換個關鍵字，或清掉篩選再走一圈。</p>
             <Button
               className="mt-6"
+              disabled={!interactive}
               variant="secondary"
               onClick={() => patch({ q: "", era: "all", pos: "all" })}
             >
@@ -157,8 +161,8 @@ function Home() {
       </section>
 
       <footer className="border-t border-border px-4 py-8 text-center text-xs leading-relaxed text-faint">
-        2021 年 NBA 75 週年紀念隊因票數平手選出 76 人。榮譽與轉會紀錄更新至 {DATA_AS_OF}。
-        肖像取自維基百科公開檔案，僅供展示。
+        <a href="https://www.nba.com/75/" className="underline">NBA 75 官方名單</a>共 76 人。資料版本：{DATA_AS_OF}。
+        尚無逐圖授權證據的肖像已停止提供；展櫃改用球員名字縮寫與球衣號碼。
       </footer>
     </main>
   );

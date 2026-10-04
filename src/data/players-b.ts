@@ -32,13 +32,14 @@ export const PLAYERS_B: Player[] = [
       scoring: [],
       retired: [],
       hof: null,
-      extras: ["NBA 75 大巨星（現役入選）", "2014 總決賽 G6 致勝投", "2019 東區決勝 G7 彈筐絕殺", "2026 全明星；夏與暴龍交易因 Aspiration 調查暫擱，截至 8 月仍列快艇"],
+      extras: ["NBA 75 大巨星（現役入選）", "2014 總決賽 G6 致勝投", "2019 東區決勝 G7 彈筐絕殺", "2026 年 9 月交易回到暴龍（已更正原 8 月快照）"],
     },
     intl: ["2019 世界盃入選美國隊後因傷退出", "未出戰奧運正賽"],
     path: [
       { team: "San Antonio Spurs", teamZh: "聖安東尼奧馬刺", years: "2011–2018", how: "溜馬選秀第 15 順位，選秀夜交易而來" },
       { team: "Toronto Raptors", teamZh: "多倫多暴龍", years: "2018–2019", how: "交易" },
-      { team: "Los Angeles Clippers", teamZh: "洛杉磯快艇", years: "2019–", how: "自由球員" },
+      { team: "Los Angeles Clippers", teamZh: "洛杉磯快艇", years: "2019–2026", how: "自由球員" },
+      { team: "Toronto Raptors", teamZh: "多倫多暴龍", years: "2026–", how: "交易回歸" },
     ],
     trades: [
       { date: "2011-06-23", deal: "溜馬以第 15 順位選進雷納德，選秀夜交易至馬刺，換回 George Hill" },

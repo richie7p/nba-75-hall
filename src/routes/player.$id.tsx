@@ -8,6 +8,7 @@ import {
   School,
   Trophy,
 } from "lucide-react";
+import { SourceNotice } from "@/components/source-notice";
 import { PLAYERS, getPlayer } from "@/data";
 import { Portrait } from "@/components/portrait";
 import { Button } from "@/components/ui/button";
@@ -76,7 +77,7 @@ function PlayerExhibit() {
             <p className="text-xs tracking-[0.18em] text-muted">
               {POS_LABEL[player.pos]} · {ERA_LABEL[player.era]}
               {player.active
-                ? ` · 現役 ${lastStint(player).teamZh}`
+                ? ` · 末筆球隊（快照）${lastStint(player).teamZh}`
                 : ` · 代表隊 ${player.peakTeam}`}
             </p>
             {player.active && !peakIsCurrent(player) && (
@@ -94,6 +95,7 @@ function PlayerExhibit() {
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-fg/90">
               {player.intro}
             </p>
+            <SourceNotice playerId={player.id} />
             <dl className="mt-6 grid grid-cols-3 gap-3 sm:max-w-md">
               <Mini label="得分" value={player.sig.pts} />
               <Mini label="籃板" value={player.sig.reb} />
