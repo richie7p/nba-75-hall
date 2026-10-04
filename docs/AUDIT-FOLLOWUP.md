@@ -19,4 +19,4 @@ Official membership: <https://www.nba.com/75/>. The home banner separately links
 
 Use Node 22 and `npm ci`. `npm run lint`, `npm run typecheck`, `npm test`, `npm run build`, `npm audit --audit-level=high`, and `npm audit --omit=dev --audit-level=high` are the release checks. `npx playwright install chromium` then `npm run test:e2e` serves the production build on port 6341.
 
-Scaffold: 197 CLI/tooling tests + 32 shared app/auth tests. Product domain: 11 tests. Browser: 4 tests (2 scenarios × desktop/mobile). Report these groups separately; scaffold tests are not evidence of catalog correctness. No API key is needed.
+Scaffold: 197 CLI/tooling tests + 32 shared app/auth tests. Product domain: 11 tests. Browser: 6 tests (3 scenarios × desktop/mobile), including delayed client scripts: server-rendered filters remain disabled until hydration attaches their handlers, preventing lost first input. The same suite also runs against the development server for local QA. Report these groups separately; scaffold tests are not evidence of catalog correctness. No API key is needed.

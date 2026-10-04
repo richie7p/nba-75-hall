@@ -1,4 +1,21 @@
 import { test, expect } from "@playwright/test";
+
+test("server-rendered filters stay disabled until their event handlers are ready", async ({ page }) => {
+ let release!: () => void;
+ const scriptsReady = new Promise<void>(resolve => { release = resolve; });
+ await page.route("**/*", async route => {
+   if (route.request().resourceType() === "script") await scriptsReady;
+   await route.continue();
+ });
+ try {
+   await page.goto("/", { waitUntil: "commit" });
+   await expect(page.getByRole("textbox", { name: "搜尋巨星" })).toBeDisabled();
+   await expect(page.getByRole("button", { name: "PG 控球後衛", exact: true })).toBeDisabled();
+   await expect(page.locator('a[href^="/player/"]')).toHaveCount(76);
+ } finally { release(); }
+ await page.getByRole("textbox", { name: "搜尋巨星" }).fill("Michael Jordan");
+ await expect(page.locator('a[href^="/player/"]')).toHaveCount(1);
+});
 test("search, compound filters, detail, next/back, deep links and source labels", async ({page},info)=>{
  const errors:string[]=[];page.on("pageerror",e=>errors.push(e.message));
  await page.goto("/");await expect(page.locator('a[href^="/player/"]')).toHaveCount(76);

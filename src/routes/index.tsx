@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Search } from "lucide-react";
 import { DATA_AS_OF, PLAYERS } from "@/data";
@@ -30,6 +30,8 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
+  const [interactive, setInteractive] = useState(false);
+  useEffect(() => setInteractive(true), []);
   const search = Route.useSearch();
   const q = search.q ?? "";
   const era = search.era ?? "all";
@@ -79,7 +81,7 @@ function Home() {
       </header>
 
       <div className="glass-nav sticky top-0 z-20">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:px-6">
+        <fieldset disabled={!interactive} aria-label="搜尋與篩選" className="mx-auto flex min-w-0 max-w-6xl flex-col gap-3 border-0 px-4 py-3 sm:px-6">
           <label className="relative block">
             <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted" />
             <Input
@@ -110,7 +112,7 @@ function Home() {
               </Chip>
             ))}
           </div>
-        </div>
+        </fieldset>
       </div>
 
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
@@ -126,6 +128,7 @@ function Home() {
             <p className="mt-2 text-sm text-muted">換個關鍵字，或清掉篩選再走一圈。</p>
             <Button
               className="mt-6"
+              disabled={!interactive}
               variant="secondary"
               onClick={() => patch({ q: "", era: "all", pos: "all" })}
             >
